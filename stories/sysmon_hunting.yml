@@ -6,6 +6,11 @@ description: Hunting with Sysmon logs form Endpoints.
 narrative: I love narration
 author: Guillaume Malbrand, Splunk
 type: ESCU
+references:
+- https://www.cisecurity.org/controls/inventory-of-authorized-and-unauthorized-devices/
 tags:
-  - Hunting
-  analytics_story: Sysmon Hunting
+  tags:
+    analytics_story: Use of Cleartext Protocols
+    usecase: Security Monitoring
+    category:
+    - Best Practices
