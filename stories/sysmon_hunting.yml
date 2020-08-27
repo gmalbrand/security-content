@@ -1,0 +1,11 @@
+name: Sysmon Hunting
+id: c0cc09b2-e846-11ea-aceb-784f43710739
+version: 1
+date: '2020-08-27'
+description: Hunting with Sysmon logs form Endpoints.
+narrative: I love narration
+author: Guillaume Malbrand, Splunk
+type: ESCU
+tags:
+  - Hunting
+  analytics_story: Sysmon Hunting
