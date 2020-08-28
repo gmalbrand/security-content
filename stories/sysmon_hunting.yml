@@ -1,16 +1,16 @@
 name: Sysmon Hunting
 id: c0cc09b2-e846-11ea-aceb-784f43710739
 version: 1
-date: '2020-08-27'
+date: "2020-08-27"
 description: Hunting with Sysmon logs form Endpoints.
-narrative: I love narration
+narrative: I love narration.
 author: Guillaume Malbrand, Splunk
-type: ESCU
+type: Custom
 references:
-- https://www.cisecurity.org/controls/inventory-of-authorized-and-unauthorized-devices/
+- https://www.blackhat.com/docs/us-15/materials/us-15-Graeber-Abusing-Windows-Management-Instrumentation-WMI-To-Build-A-Persistent%20Asynchronous-And-Fileless-Backdoor-wp.pdf
+- https://www.fireeye.com/blog/threat-research/2017/03/wmimplant_a_wmi_ba.html
 tags:
-  tags:
-    analytics_story: Use of Cleartext Protocols
-    usecase: Security Monitoring
-    category:
-    - Best Practices
+  analytics_story: Sysmon Hunting
+  usecase: Security Monitoring
+  category:
+  - Adversary Tactics
